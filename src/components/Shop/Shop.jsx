@@ -26,7 +26,7 @@ const Shop = () => {
                 //step 4:add the addedProduct to the saved cart
                 savedCart.push(addedProducts)
             }
-            console.log(addedProducts)
+            // console.log(addedProducts)
         }
         setCart(savedCart)
     },[products])
